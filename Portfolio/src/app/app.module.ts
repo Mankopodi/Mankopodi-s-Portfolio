@@ -10,6 +10,7 @@ import { ResumeComponent } from './Components/resume/resume.component';
 import { PortfolioComponent } from './Components/portfolio/portfolio.component';
 import { ContactComponent } from './Components/contact/contact.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
