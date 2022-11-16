@@ -9,7 +9,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { ResumeComponent } from './Components/resume/resume.component';
 import { PortfolioComponent } from './Components/portfolio/portfolio.component';
 import { ContactComponent } from './Components/contact/contact.component';
-
+import {TabViewModule} from 'primeng/tabview';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,8 @@ import { ContactComponent } from './Components/contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TabViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]
